@@ -10,11 +10,18 @@ const quotes = {
   ],
 
   "faith": [
-
+    "Faith over fear",
+    "Stand straight walk proud have a little faith",
+    "Faith it until you make it",
+    "Have a little faith don't give up",
+    "Believe in yourself adn you will be unstoppable"
   ],
 
   "love": [
-
+    "You are my person",
+    "Sometimes thee right place is a person",
+    "Mistakes are proof that you trying",
+    "Be the love you never recived"
   ],
   
   "confidence": [
@@ -22,8 +29,22 @@ const quotes = {
   ],
   
   "kindness": [
+    "Try be the rainbow in someone else's cloud",
+    "It doesn't cost anything ot be kind",
+    "It takes courage to be kind"
+  ],
 
-  ]
+  "people": [
+
+  ],
+
+  "self-control": [
+    
+  ],
+
+  "patience": [
+
+  ],
 }
 
 let quoteCategory;
