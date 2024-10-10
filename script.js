@@ -14,12 +14,12 @@ const quotes = {
     "Stand straight walk proud have a little faith",
     "Faith it until you make it",
     "Have a little faith don't give up",
-    "Believe in yourself adn you will be unstoppable"
+    "Believe in yourself and you will be unstoppable"
   ],
 
   "love": [
     "You are my person",
-    "Sometimes thee right place is a person",
+    "Sometimes the right place is a person",
     "Mistakes are proof that you trying",
     "Be the love you never recived"
   ],
@@ -30,7 +30,7 @@ const quotes = {
   
   "kindness": [
     "Try be the rainbow in someone else's cloud",
-    "It doesn't cost anything ot be kind",
+    "It doesn't cost anything to be kind",
     "It takes courage to be kind"
   ],
 
