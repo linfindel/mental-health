@@ -25,7 +25,7 @@ const quotes = {
   ],
   
   "confidence": [
-    "Confidence is not they will like me alot Confidenc e is i'll be fine if they don't",
+    "Confidence is not 'they will like me a lot', confidence is 'I'll be fine if they don't'",
     "Let your confidence shine",
     "If you dont ask the answer will always be no",
     "You were born the be real not to be perfect"
