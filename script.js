@@ -14,12 +14,12 @@ const quotes = {
     "Stand straight walk proud have a little faith",
     "Faith it until you make it",
     "Have a little faith don't give up",
-    "Believe in yourself adn you will be unstoppable"
+    "Believe in yourself and you will be unstoppable"
   ],
 
   "love": [
     "You are my person",
-    "Sometimes thee right place is a person",
+    "Sometimes the right place is a person",
     "Mistakes are proof that you trying",
     "Be the love you never recived"
   ],
@@ -33,7 +33,7 @@ const quotes = {
   
   "kindness": [
     "Try be the rainbow in someone else's cloud",
-    "It doesn't cost anything ot be kind",
+    "It doesn't cost anything to be kind",
     "It takes courage to be kind"
   ],
 
@@ -42,6 +42,7 @@ const quotes = {
     "Peace begins with a smile",
     "Peace is costly but is worth the expense",
     "Protect your peace"
+
   ],
 
   "self-control": [
@@ -63,12 +64,20 @@ const quotes = {
 let quoteCategory;
 
 function setCategory(category) {
-  quoteCategory = quotes[category];
+  document.getElementById("quote").style.opacity = 0;
+  document.getElementById("quote").style.filter = "blur(5px)";
 
-  document.getElementById("quote").innerText = quoteCategory[Math.floor(Math.random() * quoteCategory.length)];
+  setTimeout(() => {
+    quoteCategory = quotes[category];
 
-  let buttons = document.getElementsByTagName('button');
-  Object.values(buttons).forEach(button => button.style.backgroundColor = "rgba(255, 255, 255, 0.75)");
-  
-  document.getElementById(category).style.backgroundColor = "rgb(255, 255, 255)";
+    document.getElementById("quote").innerText = quoteCategory[Math.floor(Math.random() * quoteCategory.length)];
+
+    let buttons = document.getElementsByTagName('button');
+    Object.values(buttons).forEach(button => button.style.backgroundColor = "rgba(255, 255, 255, 0.75)");
+    
+    document.getElementById(category).style.backgroundColor = "rgb(255, 255, 255)";
+
+    document.getElementById("quote").style.opacity = 1;
+    document.getElementById("quote").style.filter = "blur(0px)";
+  }, 250);
 }
