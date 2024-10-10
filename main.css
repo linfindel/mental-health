@@ -5,6 +5,8 @@
 
 * {
   font-family: "Inter", sans-serif;
+
+  transition: 0.25s ease;
 }
 
 body {
@@ -51,4 +53,17 @@ h1 {
 
 button {
   background-color: rgba(255, 255, 255, 0.75);
+
+  border: none;
+  border-radius: 100vmax;
+
+  cursor: pointer;
+
+  font-size: 2.5rem;
+
+  padding: 2.5rem
+}
+
+button:hover {
+  background-color: rgb(255, 255, 255);
 }
