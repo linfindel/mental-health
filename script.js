@@ -26,6 +26,15 @@ const quotes = {
   ]
 }
 
-const quoteCategory = quotes[Math.floor(Math.random() * quotes.length)];
+let quoteCategory;
 
-document.getElementById("quote").innerText = quotes[Math.floor(Math.random() * quotes.length)];
+function setCategory(category) {
+  quoteCategory = quotes[category];
+
+  document.getElementById("quote").innerText = quoteCategory[Math.floor(Math.random() * quoteCategory.length)];
+
+  let buttons = document.getElementsByTagName('button');
+  Object.values(buttons).forEach(button => button.style.backgroundColor = "rgba(255, 255, 255, 0.75)");
+  
+  document.getElementById(category).style.backgroundColor = "rgb(255, 255, 255)";
+}
