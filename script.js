@@ -38,11 +38,10 @@ const quotes = {
   ],
 
   "peace": [
-    "When you make peace wuth yourself, you make peace with the world",
+    "When you make peace with yourself, you make peace with the world",
     "Peace begins with a smile",
     "Peace is costly but is worth the expense",
     "Protect your peace"
-
   ],
 
   "self-control": [
