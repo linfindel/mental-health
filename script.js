@@ -34,7 +34,7 @@ const quotes = {
     "It takes courage to be kind"
   ],
 
-  "people": [
+  "peace": [
 
   ],
 
@@ -50,12 +50,20 @@ const quotes = {
 let quoteCategory;
 
 function setCategory(category) {
-  quoteCategory = quotes[category];
+  document.getElementById("quote").style.opacity = 0;
+  document.getElementById("quote").style.filter = "blur(5px)";
 
-  document.getElementById("quote").innerText = quoteCategory[Math.floor(Math.random() * quoteCategory.length)];
+  setTimeout(() => {
+    quoteCategory = quotes[category];
 
-  let buttons = document.getElementsByTagName('button');
-  Object.values(buttons).forEach(button => button.style.backgroundColor = "rgba(255, 255, 255, 0.75)");
-  
-  document.getElementById(category).style.backgroundColor = "rgb(255, 255, 255)";
+    document.getElementById("quote").innerText = quoteCategory[Math.floor(Math.random() * quoteCategory.length)];
+
+    let buttons = document.getElementsByTagName('button');
+    Object.values(buttons).forEach(button => button.style.backgroundColor = "rgba(255, 255, 255, 0.75)");
+    
+    document.getElementById(category).style.backgroundColor = "rgb(255, 255, 255)";
+
+    document.getElementById("quote").style.opacity = 1;
+    document.getElementById("quote").style.filter = "blur(0px)";
+  }, 250);
 }
