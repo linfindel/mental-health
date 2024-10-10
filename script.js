@@ -25,7 +25,10 @@ const quotes = {
   ],
   
   "confidence": [
-
+    "Confidence is not they will like me alot Confidenc e is i'll be fine if they don't",
+    "Let your confidence shine",
+    "If you dont ask the answer will always be no",
+    "You were born the be real not to be perfect"
   ],
   
   "kindness": [
@@ -34,16 +37,26 @@ const quotes = {
     "It takes courage to be kind"
   ],
 
-  "people": [
-
+  "peace": [
+    "When you make peace wuth yourself, you make peace with the world",
+    "Peace begins with a smile",
+    "Peace is costly but is worth the expense",
+    "Protect your peace"
   ],
 
   "self-control": [
-    
+    "Never let your emotions over power your intelligence",
+    "Keep taking time for yourself until you're you again",
+    "Be kind to your mind",
+    "Self control is strength"
   ],
 
   "patience": [
-
+    "To lose patience is to lose a battle",
+    "Your patience is power",
+    "Stay patient and trust your journey",
+    "Love is patient",
+    "Have patience all things are difficult before they become easy"
   ],
 }
 
