@@ -5,6 +5,7 @@
 
 * {
   font-family: "Inter", sans-serif;
+  text-align: center;
 
   transition: 0.25s ease;
 }
@@ -70,4 +71,19 @@ button {
 
 button:hover {
   background-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 800px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .row * {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1rem;
+    text-wrap: wrap;
+  }
 }
